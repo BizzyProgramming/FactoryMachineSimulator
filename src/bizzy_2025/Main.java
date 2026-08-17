@@ -1,8 +1,11 @@
 package bizzy_2025;
 
-public class Main {
+public class Home {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		MachineOperator operator = new MachineOperator();
+        System.out.println("Welcome to Bizzys AutoMachine\n");
+        operator.operateMachine();
 	}
 }
